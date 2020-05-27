@@ -7,7 +7,6 @@ import UserProfile from "../user_profile/user_profile";
 import Experience from "../experience/experience";
 // Importando a foto da empresa
 import company_avatar from "../../images/company.png";
-import company_avatar2 from "../../images/company2.png";
 
 const Home = () => (
   <Row>
@@ -47,6 +46,13 @@ const Home = () => (
             <b>E-mail</b>
           </p>
           <p>matheusbarreiraalveshotmailcom@gmail.com</p>
+          <br />
+          <p>
+            <b>Escolaridade:</b>
+          </p>
+          <p>2°Grau Completo em 2019</p>
+          <p>Técnico em Informática - Senac/SP - conclusão em Agosto/2020</p>
+          <br />
         </div>
       </Card>
       <h5 className="subtitle">Experiences</h5>
